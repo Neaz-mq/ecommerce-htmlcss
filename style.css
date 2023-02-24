@@ -1,0 +1,129 @@
+/* Let's start */
+
+:root{
+    --primary-color: #686de0;
+    --secondary-color: #9AECDB;
+    --padding: 0.5rem;
+    --transition: all 0.3s;
+    --border-radius: 0.6trem;
+    --box-shadow: 0.1rem 0.2rem 0.8rem rgba(205,202,202,0.5);
+
+}
+
+
+
+*{
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   text-decoration: none;
+   list-style-type: none;
+   outline: none;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+img{
+    height: auto;
+    width: 100%;
+}
+
+.flex-space-around{
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+}
+
+/* navbar starts here */
+
+nav{
+
+    font-family: monospace;
+    font-size: 1.2rem;
+    position: sticky;
+    left: 0;
+    right: 0;
+    z-index: 100;
+
+}
+
+.nav-top{
+    min-height: 10vh;
+    background-color: var(--primary-color);
+    padding: var(--padding);
+   
+}
+
+.nav_item{
+    transition: var(--transition);
+}
+
+.nav_link{
+    color: white;
+    transition: var(--transition);
+}
+.nav_link:hover{
+    color: black;
+    transition: var(--transition);
+    text-decoration: underline;
+}
+
+.profile-icon{
+        width: 3rem;
+        height: 3rem;
+        border-radius: 50%;
+        border: white 1px solid;
+        filter: saturate(0);
+}
+
+.profile-icon:hover{
+    filter: saturate(1);
+}
+
+.nav_links{
+    color: black;
+}
+.nav_links:hover{
+    color: red;
+    transition: var(--transition);
+
+    
+}
+
+.nav_linkss{
+    color: black;
+}
+.nav_linkss:hover{
+    color: red;
+    transition: var(--transition);
+
+    
+}
+
+
+.nav-bottom{
+    min-height: 10vh;
+    background-color: var(--secondary-color);
+    font-weight: bolder;
+}
+
+.nav_links{
+    font-size: 2rem;
+}
+.nav_linkss{
+    font-size: 1.2rem;
+}
+
+
+
+/* navbar ends here */
+
+
+
+
+
+
+
+/* Finish here */

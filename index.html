@@ -81,8 +81,99 @@
     </header>
     <!-- header ends here -->
 
-    <main>
-        <h2>Main page</h2>
+    <main class="flex-center">
+        <div class="sideebar">
+            <section class="categories-section">
+                <h3 class="section-title">Categories</h3>
+                <ul class="list">
+                    <li class="list_item">
+                        <label for="telephone">
+                            <input type="checkbox" name="" id="telephone" value="telephone">
+                            Telephones
+                        </label>
+                    </li>
+                    <li class="list_item">
+                        <label for="tablets">
+                            <input type="checkbox" name="" id="tablets" value="tablets">
+                            Tablets
+                        </label>
+                    </li>
+                    <li class="list_item">
+                        <label for="television">
+                            <input type="checkbox" name="" id="televisions" value="television">
+                            Telephones
+                        </label>
+                    </li>
+                    <li class="list_item">
+                        <label for="computer">
+                            <input type="checkbox" name="" id="computer" value="computer">
+                            Computers
+                        </label>
+                    </li>
+                    <li class="list_item">
+                        <label for="headphones">
+                            <input type="checkbox" name="" id="headphones" value="headphones">
+                            Headphones
+                        </label>
+                    </li>
+                </ul>
+            </section>
+            <section class="prices-section">
+                <h3 class="price-title">Price Range</h3>
+                <ul class="list">
+                    <li class="list_item">
+                        <label for="pricefirst">
+                            <input type="radio" name="price" id="pricefirst" value="[0,20]">
+                            $0 - $20
+                        </label>
+                    </li>
+                    <li class="list_item">
+                        <label for="pricesecond">
+                            <input type="radio" name="price" id="pricesecond" value="[21,60]">
+                            $21 - $60
+                        </label>
+                    </li>
+                    <li class="list_item">
+                        <label for="pricethird">
+                            <input type="radio" name="price" id="pricethird" value="[61,80]">
+                            $61 - $80
+                        </label>
+                    </li>
+                    <li class="list_item">
+                        <label for="pricefourth">
+                            <input type="radio" name="price" id="pricefourth" value="[81+]">
+                            $81+
+                        </label>
+                    </li>
+                   
+                    
+                </ul>
+            </section>
+
+            <section class="shipping-section">
+                <h3 class="price-title">Shipping Options</h3>
+                <ul class="list">
+                    <li class="list_item">
+                        <label for="free">
+                            <input type="radio" name="shipping" id="free" value="free">
+                            Free
+                        </label>
+                    </li>
+                    <li class="list_item">
+                        <label for="paid">
+                            <input type="radio" name="shipping" id="pricesecond" value="paid">
+                           Paid
+                        </label>
+                    </li>
+                   
+                   
+                    
+                </ul>
+            </section>
+
+
+        </div>
+        <div class="main-content">Main content</div>
     </main>
 
     <footer class="footer flex-space-around">
